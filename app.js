@@ -5,7 +5,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    return res.json({titulo: "Como criar API??"})
+    return res.json({titulo: "title"})
 })
 
 app.listen(8080, () => {
